@@ -1,57 +1,57 @@
-# Simple-Currency-Converter
-Simple Currency Converter
+# Python Currency Converter
+The Python Currency Converter is a simple script that allows users to convert currency from one currency to another using the exchange rates provided by the apilayer Currency Exchange Rates API.
 
-# Python Simple Currency Converter
+## Features:
+Currency Conversion: Users can specify the source currency, the target currency, and the amount to convert.
 
-A simple Python script that converts currency using the exchange rates from an API.
+Real-time Exchange Rates: The script retrieves real-time exchange rates from the apilayer Currency Exchange Rates API to perform currency conversion.
 
-## Getting Started
+## How to Use:
+Installation: Ensure you have Python installed on your system. If not, download and install it from python.org.
 
-These instructions will guide you on how to run and use the currency converter on your local machine.
+Obtain API Access Key: Obtain an API access key from apilayer Currency Exchange Rates API to use in the script.
 
-### Prerequisites
+Download the Script: Clone or download the Python currency converter script to your local machine.
 
-Make sure you have the following software installed:
+Run the Script: Open a terminal or command prompt, navigate to the directory containing the script, and execute it using Python:
 
-- Python 3.x
-- Required libraries (specified in `requirements.txt`)
+```
+python currency_converter.py
+````
 
-### Installation
-
-1. Clone the project to your account:
-
-git clone https://github.com/YOUR_USERNAME/python-simple-currency-converter.git
-
-
-
-2. Navigate to the project directory:
-
-cd python-simple-currency-converter
-
-
-
-3. Install the required libraries:
-
-pip install -r requirements.txt
-
-
-4. Run the application:
-
-python main.py
-
-
-
-## How to Use
+Follow Prompts: The script will prompt you to enter the API access key, source currency, target currency, and the amount to convert.
 
 1. Enter your API access key when prompted.
-
 2. Enter the currency you want to convert to (e.g., EUR, GBP, JPY).
-
 3. Enter the source currency (e.g., USD, EUR, GBP).
-
 4. Input the amount you want to convert.
-
 5. The converter will fetch the latest exchange rates and display the converted amount.
+
+Currency Conversion: The script will then retrieve the real-time exchange rate and perform the currency conversion, displaying the converted amount.
+
+Example:
+
+```
+API Anahtarını Giriniz: [Your API Access Key]
+Dönüştürülecek Para Birimini Griniz: EUR
+Kaynak Para Birimini Giriniz: USD
+Miktar: 100
+
+Para Döviz Kuru: 83.09
+```
+
+## Requirements
+requests: Python library for making HTTP requests.
+
+Install dependencies using pip:
+```
+pip install requests
+```
+
+## Security Considerations:
+Keep your API access key secure and avoid sharing it publicly or storing it in plain text.
+
+Only use reputable and trustworthy currency exchange rate APIs.
 
 
 
